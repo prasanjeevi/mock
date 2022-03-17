@@ -15,5 +15,5 @@ docker run -p 8081:8081 -d prasanjeevi/mock:0.1
 # Build & Run 2
 docker build --build-arg port=8082 --build-arg status=400 -t prasanjeevi/mock:0.2 .
 docker run -p 8082:8082 -d prasanjeevi/mock:0.2
-# curl http://127.0.0.1:8081 -v
+# curl http://127.0.0.1:8082 -v
 ```
